@@ -2,7 +2,7 @@
 
 namespace Deliverable1
 {
-    class Program
+    class Program 
     { 
 
         public static void Main(string[] args)
@@ -17,7 +17,7 @@ namespace Deliverable1
                 Console.WriteLine("Please give me a measurement type");
                 string measurementtype = Console.ReadLine();
 
-                Console.WriteLine("Please give me an amount ");
+                Console.WriteLine("Please give me an amount");
                 double amount = double.Parse(Console.ReadLine());
                 double result = 0;
 
